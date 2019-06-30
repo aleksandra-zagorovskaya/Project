@@ -56,18 +56,18 @@
     height: 100%;
 }
 .center-page {
-    margin: 50px 50px;
+    margin: 50px 100px;
 }
 .block {
-    margin-top: 20px;
+    margin: 30px auto;
 }
 .about {
     height: 250px;
     width: 400px;
-    margin: 0 auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+    box-shadow: 0 0 5px 5px white inset;
 }
 .block-about1 {
     background-image: url(../images/block1.jpg);
@@ -78,8 +78,15 @@
 .block-about3 {
     background-image: url(../images/block3.jpg);
 }
-.nameblock-about {
-    background-color: white;
-    padding: 20px;
-    margin: 50px 50px;
+.name-block-about {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    position: relative;
+    bottom: 38px;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: "Bradley Hand ITC";
 }
+
