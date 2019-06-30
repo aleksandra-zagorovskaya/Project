@@ -32,7 +32,7 @@
     margin-right: 100px;
     font-size: 11px;
     letter-spacing: 0.5em;
-    font-family: "Bradley Hand ITC";
+    font-family: "Montserrat";
 }
 .menu-list a:hover {
     text-decoration: underline;
@@ -86,7 +86,25 @@
     text-align: center;
     width: 100px;
     margin: 0 auto;
-    font-size: 30px;
-    font-family: "Bradley Hand ITC";
+    font-size: 20px;
+    font-family: "Montserrat";
 }
-
+.me-foto1 {
+    background-image: url(../images/me-foto1.jpg);
+    height: 400px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    z-index: 200;
+}
+.me-foto2 {
+    background-color: #C14242;
+    height: 400px;
+    width: 350px;
+    position: relative;
+    z-index: 100;
+    top: -350px;
+    right: -50px;
+}
