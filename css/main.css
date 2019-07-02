@@ -105,15 +105,63 @@
     right: 265px;
     top: 30px;
 }
+.empty-border-block {
+    border-top: 3px solid black;
+    width: 260px;
+    position: relative;
+    z-index: 300;
+    right: -370px;
+    top: -300px;
+}
 .text-about-me {
     position: relative;
     height: 400px;
     width: 340px;
     z-index: 2;
 }
-h1 {
+h2 {
     font-family: 'Dancing Script', cursive;
     font-size: 60px;
+}
+h3 {
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+}
+.socials {
+    text-align: center;
+}
+.icon-socials {
+    display: inline-block;
+    background-image: url("../images/socials-icon.png");
+    background-repeat: no-repeat;
+    width:30px;
+    height: 45px;
+    margin: 0 10px;
+}
+.pint {
+    background-position: -95px 0;
+}
+.insta {
+    background-position: -65px 0;
+}
+.skype {
+    background-position: -99px -34px;
+}
+.fb:hover {
+    background-position: 0 -188px;
+}
+.pint:hover {
+    background-position: -95px -188px;
+}
+.insta:hover {
+    background-position: -65px -188px;
+}
+.skype:hover {
+    background-position: -99px -222px;
 }
 .backgroung-fon2 {
     background-image: url(../images/backgroung-fon2.png);
@@ -123,4 +171,5 @@ h1 {
     background-size: cover;
     background-position: 50% 50%;
     z-index: 1;
+    left: -30px;
 }
