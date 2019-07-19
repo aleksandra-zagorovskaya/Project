@@ -89,35 +89,49 @@
     font-size: 20px;
     font-family: "Montserrat";
 }
+
 .block-about-me {
     display: flex;
+}
+.foto-block-about-me {
+    position: relative;
+    width: 50%;
 }
 .foto-block-about-me img {
     height: 400px;
     width: 340px;
-    position: relative;
 }
 .me-foto1 {
     z-index: 200;
+    position: absolute
 }
 .backgroung-fon1 {
+    background-image: url("../images/background-fon1.jpg");
+    height: 400px;
+    width: 340px;
     z-index: 100;
-    right: 265px;
-    top: 30px;
+    background-size: cover;
+    position:absolute;
+    left: 100px;
+    top: 55px;
+
 }
 .empty-border-block {
     border-top: 3px solid black;
     width: 260px;
-    position: relative;
+    position: absolute;
     z-index: 300;
-    right: -370px;
-    top: -300px;
+    left: 360px;
+    top: 120px;
+
 }
 .text-about-me {
     position: relative;
     height: 400px;
     width: 340px;
     z-index: 2;
+    margin-left: 250px;
+    width: 50%;
 }
 h2 {
     font-family: 'Dancing Script', cursive;
@@ -138,7 +152,7 @@ h3 {
     display: inline-block;
     background-image: url("../images/socials-icon.png");
     background-repeat: no-repeat;
-    width:30px;
+    width: 30px;
     height: 45px;
     margin: 0 10px;
 }
@@ -165,49 +179,58 @@ h3 {
 }
 .backgroung-fon2 {
     background-image: url(../images/backgroung-fon2.png);
-    position: relative;
+    position: absolute;
     height: 400px;
     width: 280px;
     background-size: cover;
     background-position: 50% 50%;
-    z-index: 1;
-    left: -30px;
+    top: 20px;
+    left: -155px;
 }
-/*слайдер
-
-
-.slaider1 {
-    background-image: url(../images/slaider/slaider1.jpg);
-}
-.slaider2 {
-    background-image: url(../images/slaider/slaider2.jpg);
-}
-.slaider3 {
-    background-image: url(../images/slaider/slaider3.jpg);
-}
-*/
 .work-with-me {
     display: flex;
     margin-left: 50px;
+}
+/*стили для слайдера*/
+.portfolio {
+    background-image: url(../images/Ten-form.jpg);
+    background-position: 0 48%;
+    background-repeat: no-repeat;
+    height: 80px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 60px;
+    box-shadow: 0 0 5px 5px white inset;
 
 }
+.sl {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.sl_slide img {
+    height: 500px;
+    padding: 20px;
+}
 .say-hi {
-    width: 210px;
+    width: 30%;
     background-image: url(../images/sayhi.png);
     background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 .block-form {
-    width: 800px;
+    width: 70%;
     height: 610px;
 }
 .block-form-fon {
     background-image: url(../images/Ten-form.jpg);
-    width: 800px;
+    width: 100%;
     height: 610px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    opacity: 0.6;
+    opacity: 0.7;
+
 }
 .block-form-inside {
     position: relative;
