@@ -214,6 +214,49 @@ h3 {
     height: 500px;
     padding: 20px;
 }
+/*palitra*/
+.palitra-flex {
+    display: flex;
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 25px;
+}
+.palitra {
+    width: 250px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.palitra:hover {
+    box-shadow: 4px 3px 4px 2px grey;
+}
+.palitra1 {
+    background-color: blanchedalmond;
+}
+.palitra4 {
+    background-color: palevioletred;
+}
+.palitra3 {
+    background-color: rosybrown;
+}
+.palitra2 {
+    background-color: burlywood;
+}
+.palitra6 {
+    background-color: brown;
+}
+.palitra5 {
+    background-color: indianred;
+}
+.brand {
+    background-image: url("../images/brand.jpg");
+    width: 900px;
+    height: 350px;
+    background-size: cover;
+    background-position: right;
+    margin-left: 50px;
+
+}
+
 .say-hi {
     width: 30%;
     background-image: url(../images/sayhi.png);
