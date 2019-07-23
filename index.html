@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <title>Alex_Zagorovskaya</title>
+    <title>Make-up Alex_Zagorovskaya</title>
 </head>
 <body>
 <header>
@@ -19,10 +18,10 @@
         <nav class="header-menu">
             <ul class="menu">
                 <li><a href="">home</a></li>
-                <li><a href="">services</a></li>
-                <li><a href="">portfolio</a></li>
-                <li><a href="">about</a></li>
-                <li><a href="">contact</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
         </nav>
     </div>
@@ -37,7 +36,6 @@
 </header>
 <main>
     <div class="center-page">
-
         <div class="services-block">
             <div class="services-block-general">
                 <div class="ground services-pic1"></div>
@@ -52,14 +50,12 @@
                 <div class="services-name"><span>portfolio</span></div>
             </div>
         </div>
-
-        <div class="block-about-me">
+        <div class="block-about-me" id="about">
             <div class="foto-block-about-me">
                 <div><img src="images/me-foto1.jpg" alt="me-foto1" class="me-foto1"></div>
                 <div class="backgroung-fon1"></div>
                 <div class="empty-border-block"></div>
             </div>
-
             <div class="text-about-me">
                 <h2>About me</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -76,9 +72,8 @@
             </div>
         </div>
     </div>
-
         <div class="block-slaider">
-                <div class="portfolio">Portfolio</div>
+                <div class="portfolio" id="portfolio">Portfolio</div>
                <div class="sl">
                     <div class="sl_slide"><img src="images/slaider/slaider1.jpg" alt="slaider1"></div>
                     <div class="sl_slide"><img src="images/slaider/slaider2.jpg" alt="slaider2"></div>
@@ -88,13 +83,9 @@
                     <div class="sl_slide"><img src="images/slaider/slaider6.jpg" alt="slaider6"></div>
                 </div>
         </div>
-
     <div>
-        <div class="portfolio">Services</div>
-
-
+        <div class="portfolio" id="services">Services</div>
         <div class="palitra-flex center-page">
-
             <div class="palitra-color">
                 <div class="palitra palitra1">Day make-up</div>
                 <div class="palitra palitra2">Evening make-up</div>
@@ -103,41 +94,41 @@
                 <div class="palitra palitra5">Brow master</div>
                 <div class="palitra palitra6">Professional make-up</div>
             </div>
-
             <div class="brand"></div>
-
          </div>
-
     </div>
-
     <div class="work-with-me">
         <div class="say-hi"></div>
-
-        <div class="block-form" id="form_private">
+        <div class="block-form">
             <div class="block-form-fon"></div>
             <div class="block-form-inside">
-                <form>
-                    <label>Name
-                        <input type="text" name="name">
-                    </label>
-                    <label>Email
-                        <input type="text" name="email">
-                    </label>
-                    <label>Phone
-                        <input type="text" name="phone">
-                    </label>
-                    <label>What are you interested in?
-                        <select>
-                            <option>Select</option>
-                            <option>Evening make-up</option>
-                            <option>Wedding make-up</option>
-                            <option>Day make-up</option>
-                            <option>Learning makeup for yourself</option>
-                        </select>
-                    </label>
-                    <label>Additional comments
-                        <input type="text" name="comments">
-                    </label>
+                <form name="form_private" id="form_private">
+                    <div>
+                        <label>Name<input type="text" name="name"></label>
+                        <span class="hidden_err" id="hidden_name">Enter your name</span>
+                    </div>
+                     <div>
+                         <label>Email<input type="text" name="email"></label>
+                          <span class="hidden_err" id="hidden_email">Enter your email</span>
+                     </div>
+                    <div>
+                        <label>Phone<input type="text" name="phone" placeholder="+375(  ) ___-__-__"></label>
+                        <span class="hidden_err" id="hidden_phone">Enter your Phone</span>
+                    </div>
+                    <div>
+                         <label>What are you interested in?
+                                <select>
+                                    <option>Select</option>
+                                    <option>Evening make-up</option>
+                                    <option>Wedding make-up</option>
+                                    <option>Day make-up</option>
+                                    <option>Learning makeup for yourself</option>
+                                </select>
+                            </label>
+                    </div>
+                    <div>
+                            <label>Additional comments<input type="text" name="comments"></label>
+                    </div>
                     <div class="button_block">
                         <button name="submit">Send</button>
                     </div>
@@ -147,32 +138,32 @@
     </div>
 
 </main>
-
 <footer class="footer-wrapper">
     <div class="footer-block1">
         <nav class="footer-menu-main">
             <ul class="footer-menu">
                 <li><a href="">home</a></li>
-                <li><a href="">services</a></li>
-                <li><a href="">portfolio</a></li>
-                <li><a href="">about</a></li>
-                <li><a href="">contact</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
         </nav>
-        <div class="text-footer"></div>
+        <div class="cosmetics"><img src="images/nyx-icon.png" alt="nyx"></div>
+        <div class="cosmetics"><img src="images/zoeva--icon.png" alt="zoeva"></div>
+        <div class="cosmetics"><img src="images/kiko-icon.jpg" alt="kiko"></div>
+        <div class="cosmetics"><img src="images/inglot-icon.png" alt="inglot"></div>
+        <div class="cosmetics"><img src="images/Loreal-Paris-icon.jpg" alt="Loreal"></div>
+        <div class="cosmetics"><img src="images/mac-icon.jpg" alt="mac"></div>
     </div>
-
-    <div class="footer-block2">
+    <div class="footer-block2" id="contact">
         <h3 class="text-footer">2019 Just Like creative  aleksandrazagorovskaya@gmail.com</h3>
         <div class="backgroung-footer"></div>
     </div>
-
 </footer>
-
 <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
-
 <script type="text/javascript">
     $('.sl').slick({
         dots: true,
@@ -185,6 +176,8 @@
         centerMode: true,
     });
 </script>
-
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

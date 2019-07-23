@@ -35,6 +35,7 @@
     font-size: 11px;
     letter-spacing: 0.5em;
     font-family: "Montserrat";
+    color: black;
 }
 .menu a:hover {
     text-decoration: underline;
@@ -68,7 +69,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    box-shadow: 0 0 5px 5px white inset;
     height: 250px;
     width: 400px;
 }
@@ -92,7 +92,6 @@
     font-size: 20px;
     font-family: "Montserrat";
 }
-
 .block-about-me {
     display: flex;
 }
@@ -106,7 +105,11 @@
 }
 .me-foto1 {
     z-index: 200;
-    position: absolute
+    position: absolute;
+}
+.me-foto1:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 .backgroung-fon1 {
     background-image: url("../images/background-fon1.jpg");
@@ -117,7 +120,7 @@
     position:absolute;
     left: 100px;
     top: 55px;
-
+    box-shadow: 13px 19px 25px 2px black;
 }
 .empty-border-block {
     border-top: 3px solid black;
@@ -126,7 +129,6 @@
     z-index: 300;
     left: 360px;
     top: 120px;
-
 }
 .text-about-me {
     position: relative;
@@ -204,7 +206,6 @@ h3 {
     text-align: center;
     font-size: 60px;
     box-shadow: 0 0 5px 5px white inset;
-
 }
 .sl {
     max-width: 1000px;
@@ -228,6 +229,8 @@ h3 {
 }
 .palitra:hover {
     box-shadow: 4px 3px 4px 2px grey;
+    transform: scale(1.1);
+    transition: 0.4s;
 }
 .palitra1 {
     background-color: blanchedalmond;
@@ -254,9 +257,12 @@ h3 {
     background-size: cover;
     background-position: right;
     margin-left: 50px;
-
+    box-shadow: 13px 19px 25px 2px lightgrey;
 }
-
+.brand:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .say-hi {
     width: 30%;
     background-image: url(../images/sayhi.png);
@@ -276,7 +282,6 @@ h3 {
     background-size: cover;
     background-position: 50% 50%;
     opacity: 0.7;
-
 }
 .block-form-inside {
     position: relative;
@@ -294,37 +299,52 @@ input {
     border-bottom: 1px solid black;
     padding: 15px;
     outline:none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background-color: transparent;
 }
-
+.hidden_err {
+    color: red;
+    display: none;
+}
+button {
+    padding: 10px 40px;
+}
 /*footer*/
 .footer-wrapper {
     z-index: 1;
 }
 
 .footer-block1 {
-    background-color: lightgray;
-    height: 250px;
+    background-color: gainsboro;
+    height: 150px;
     display: flex;
 }
+.cosmetics > img {
+    width: 150px;
+    height: 70px;
+    margin: 10px 25px;
+}
+.cosmetics > img:hover {
+    transform: scale(1.4);
+    transition: 0.5s;
+}
 .footer-menu-main {
-    padding-left: 175px;
-    padding-top: 30px;
-    width: 300px;
+    margin: 20px 20px 0 0 ;
+    width: 250px;
     text-align: right;
 }
 .footer-menu a {
-    text-decoration: none;
     text-transform: uppercase;
     font-size: 11px;
     letter-spacing: 0.5em;
     font-family: "Montserrat";
+    color: black;
 }
 .footer-menu a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
 .footer-block2 {
     background-color: black;
     height: 150px;
