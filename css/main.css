@@ -62,35 +62,50 @@
 .services-block {
     display: flex;
 }
-.services-block-general {
-    margin: 30px auto;
+.services-block-small {
+    display: flex;
 }
 .ground {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    height: 250px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
 }
-.services-pic1 {
-    background-image: url(../images/block1.jpg);
+.small-pic1 {
+    background-image: url(../images/small-pic1.jpg);
+    box-shadow: 13px 19px 25px 2px black;
 }
-.services-pic2 {
-    background-image: url(../images/block2.jpg);
-}
-.services-pic3 {
-    background-image: url(../images/block3.jpg);
-}
-.services-name{
-    background-color: rgba(255, 255, 255, 0.5);
-    color: black;
-    position: relative;
-    bottom: 38px;
-    text-align: center;
-    width: 100px;
-    margin: 0 auto;
-    font-size: 20px;
+.text-small-block {
     font-family: "Montserrat";
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.small-pic2 {
+    background-image: url(../images/small-pic2.jpg);
+}
+.small-pic3 {
+    background-image: url(../images/small-pic3.jpg);
+}
+.small-pic-end {
+    background-image: url(../images/small-pic-end.jpg);
+}
+.small-pic-end-size {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 400px;
+    width: 300px;
+}
+.small-pic-shadow {
+    box-shadow: 13px 19px 25px 2px black;
+}
+.size:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
 }
 .block-about-me {
     display: flex;
@@ -98,6 +113,7 @@
 .foto-block-about-me {
     position: relative;
     width: 50%;
+    margin-left: 20px;
 }
 .foto-block-about-me img {
     height: 400px;
