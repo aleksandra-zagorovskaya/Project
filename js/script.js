@@ -10,6 +10,30 @@ jQuery(function($) {
         }
     });
 
+    $('.menu a').on( 'click', function(){
+        var el = $(this);
+        var dest = el.attr('href');
+        if(dest !== undefined && dest !== '') {
+            $('html').animate({
+                    scrollTop: $(dest).offset().top
+                }, 1500
+            );
+        }
+        return false;
+    });
+
+    $('.footer-menu a').on( 'click', function(){
+        var el = $(this);
+        var dest = el.attr('href');
+        if(dest !== undefined && dest !== '') {
+            $('html').animate({
+                    scrollTop: $(dest).offset().top
+                }, 1500
+            );
+        }
+        return false;
+    });
+
     $(".textfield,.datepicker").on('focus', function() { //выбираем все input
         if ($(this).hasClass("error")) { //если ошибка
             $(this).removeClass("error"); // удалить
@@ -18,6 +42,22 @@ jQuery(function($) {
     });
     $(".datepicker").datepicker({
         dateFormat: "dd.mm.yy"
+    });
+});
+
+$(document).ready(function(){
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 0) {
+            $('.button-up').fadeIn();
+        } else {
+            $('.button-up').fadeOut();
+        }
+    });
+    $('.button-up').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 1500);
+        return false;
     });
 });
 
