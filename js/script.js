@@ -59,6 +59,10 @@ $(document).ready(function(){
         }, 1500);
         return false;
     });
+
+    $('.palitra-color').on('mouseover', '.palitra',function () {
+        $('.brand').css('background-image', 'url('+$(this).data('image')+')')
+    });
 });
 
 function sendForm() {
