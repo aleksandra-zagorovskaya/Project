@@ -48,12 +48,12 @@ body {
 .welcome-pic1 {
     width: 70%;
     margin-right: 1px;
-    background-image: url(../images/welcome-pic1.jpg);
+    background-image: url("../images/welcome-pic1.jpg");
     background-position: 50% 70%;
 }
 .welcome-pic2 {
     width: 30%;
-    background-image: url(../images/welcome-pic2.jpg);
+    background-image: url("../images/welcome-pic2.jpg");
     background-position: 50% 0;
 }
 .welcome-pic-size {
@@ -83,7 +83,7 @@ body {
     width: 300px;
 }
 .small-pic1 {
-    background-image: url(../images/small-pic1.jpg);
+    background-image: url("../images/small-pic1.jpg");
     box-shadow: 13px 19px 25px 2px black;
 }
 .text-small-block {
@@ -95,13 +95,13 @@ body {
     text-transform: uppercase;
 }
 .small-pic2 {
-    background-image: url(../images/small-pic2.jpg);
+    background-image: url("../images/small-pic2.jpg");
 }
 .small-pic3 {
-    background-image: url(../images/small-pic3.jpg);
+    background-image: url("../images/small-pic3.jpg");
 }
 .small-pic-end {
-    background-image: url(../images/small-pic-end.jpg);
+    background-image: url("../images/small-pic-end.jpg");
 }
 .small-pic-end-size {
     background-repeat: no-repeat;
@@ -209,7 +209,7 @@ h3 {
     background-position: -99px -222px;
 }
 .backgroung-fon2 {
-    background-image: url(../images/backgroung-fon2.png);
+    background-image: url("../images/backgroung-fon2.png");
     position: absolute;
     height: 400px;
     width: 280px;
@@ -224,7 +224,7 @@ h3 {
 }
 /*стили для слайдера*/
 .portfolio {
-    background-image: url(../images/Ten-form.jpg);
+    background-image: url("../images/Ten-form.jpg");
     background-position: 0 48%;
     background-repeat: no-repeat;
     height: 80px;
@@ -252,6 +252,7 @@ h3 {
     width: 250px;
     height: 67px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .palitra:hover {
     box-shadow: 4px 3px 4px 2px grey;
@@ -284,6 +285,7 @@ h3 {
     background-position: right;
     margin-left: 50px;
     box-shadow: 13px 19px 25px 2px lightgrey;
+    transition: 0.5s;
 }
 .brand:hover {
     transform: scale(1.1);
@@ -292,7 +294,7 @@ h3 {
 
 .say-hi {
     width: 30%;
-    background-image: url(../images/sayhi.png);
+    background-image: url("../images/sayhi.png");
     background-repeat: no-repeat;
     margin-top: 50px;
     margin-left: 50px;
@@ -302,7 +304,7 @@ h3 {
     height: 610px;
 }
 .block-form-fon {
-    background-image: url(../images/Ten-form.jpg);
+    background-image: url("../images/Ten-form.jpg");
     width: 100%;
     height: 610px;
     background-repeat: no-repeat;
@@ -381,7 +383,7 @@ button {
     margin: 20px auto;
 }
 .backgroung-footer {
-    background-image: url(../images/backgroung-footer.png);
+    background-image: url("../images/backgroung-footer.png");
     position: relative;
     background-position: 50% 50%;
     z-index: 2;
@@ -401,3 +403,5 @@ button {
     cursor: pointer;
     display: none;
 }
+.cosmetics {cursor: pointer}
+footer a {color: white}
